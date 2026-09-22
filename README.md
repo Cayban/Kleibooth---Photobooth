@@ -1,6 +1,6 @@
 # Kleibooth
 
-A browser-based event photobooth with custom Instax paper designs, downloadable layout guides, stickers, filters, and on-device person cutout for scene replacement.
+A browser-based event photobooth with custom Instax paper designs, downloadable layout guides, draggable stickers, live camera face props for up to two faces, filters, and on-device person cutout for scene replacement.
 
 ## Run locally
 
@@ -16,4 +16,4 @@ Then open `http://localhost:4173`.
 
 Upload this folder to a Git repository, import it in Vercel, and use the default static-site settings. No build command or output directory is required.
 
-Camera access requires HTTPS in production, which Vercel provides. Kleibooth includes its MediaPipe runtime and person-segmentation model locally, so background replacement does not depend on third-party downloads.
+Camera access requires HTTPS in production, which Vercel provides. Kleibooth includes its MediaPipe runtime, face-landmark model, and person-segmentation model locally, so its visual effects do not depend on third-party AI downloads.
