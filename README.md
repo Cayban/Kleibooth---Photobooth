@@ -1,6 +1,8 @@
 # Kleibooth
 
-A browser-based event photobooth with custom Instax paper designs, downloadable layout guides, draggable stickers, live camera face props for up to two faces, filters, and on-device person cutout for scene replacement.
+A browser-based event photobooth with custom Instax paper designs, downloadable layout guides, draggable stickers, live camera face props for up to two faces, eight photo filters, and on-device person cutout for scene replacement.
+
+Version 4.3 adds transparent anime-blush and moustache props that follow each face and are baked into the finished photos. The refreshed filter set includes Natural, Warm, B&W, Cool, Soft, Film, Vivid, and Dreamy looks.
 
 ## Run locally
 
